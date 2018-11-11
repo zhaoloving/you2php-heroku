@@ -3,7 +3,7 @@
             Copyright © 2015-<?php echo date('Y');?> All Rights Reserved </br>
         </p>
         <p  class="text-white  m-1 p-1 h6">
-            Powered by <a href="https://you2php.github.io/" target="_blank" class="text-white font-italic">YOU2PHP</a> 
+            10086 
             <a href="./embed/upgrade.php" target="_blank" class="text-white ml-2">检查更新</a>
         </p>
     </footer>
