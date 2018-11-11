@@ -118,14 +118,13 @@ if(isset($_GET['v'])){
       <div class="col-md-9 ">
          <div class="col-md-12 pb-3 d-none d-sm-none d-md-block" style="background: url(./inc/homebg.jpg) no-repeat;background-size: cover;background-position: center -80px;text-align: center;
     "> 
-   <h4 class="pt-5 pb-2 text-white">你好 世界!(如遇无法播放, 请点击[4K播放].)</h4>
+   <h4 class="pt-5 pb-2 text-white">你好 世界!</h4>
     <form>
   <div class="form-group" >
       <input type="text" name="v" style="width: 50%;height: 50px;border: none;box-sizing: border-box;padding: 14px 18px;" placeholder="请输入视频ID或Youtube链接"  autocomplete="off" /><button type="submit"  style="width: 18%;border: none;height: 50px;background-color: #e62117;color: #fff;font-size: 18px;display: inline-block;" ><i class="fa fa-youtube-play fa-lg pr-1"></i>播放</button>
   </div>
     </form>
-    <p class="text-white m-0">假如一间铁屋子，是绝无窗户而万难破毁的，里面有许多熟睡的人们，不久都要闷死了，然而是从昏睡入死灭，并不感到就死的悲哀。现在你大嚷起来，惊醒了较为清醒的几个人，使这不幸的少数者来受无可挽救的临终的苦楚，你倒以为对的起他们么？然而几个人既然起来，你不能说绝没有毁坏这铁屋的希望。</p>
-    <p class="text-white m-0">《呐喊》自序</p>
+    <p class="text-white m-0">如遇无法播放, 请点击[4K播放]</p>
     </div>
     
     <div class="row pt-2 pb-2">
