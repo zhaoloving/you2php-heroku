@@ -6,8 +6,10 @@
 3. 更新了 config 设置. 请在 confing.php 文件中自定义网站名字, 以及参考官方文档设置自己的 API key, 当部署此 Fork 人数过多, API 配额用尽时网站将不可用.<br>
 
 
-<b>YouTube 镜像网站, 实现免翻墙访问.</b>
+<b>YouTube 镜像网站, 实现免翻墙访问.</b><br>
 点击使用: https://youtubemirror-usa.herokuapp.com/<br>
+
+
 
 ### 使用方法
 
