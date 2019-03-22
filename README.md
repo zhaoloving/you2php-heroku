@@ -6,7 +6,7 @@
 3. 更新了 config 设置. 请在 confing.php 文件中自定义网站名字, 以及参考官方文档设置自己的 API key, 当部署此 Fork 人数过多, API 配额用尽时网站将不可用.<br>
 
 
-b>YouTube 镜像网站, 实现免翻墙访问.</b>
+<b>YouTube 镜像网站, 实现免翻墙访问.</b>
 点击使用: https://youtubemirror-usa.herokuapp.com/<br>
 
 ### 使用方法
@@ -14,33 +14,16 @@ b>YouTube 镜像网站, 实现免翻墙访问.</b>
 1. 下载 heroku CLI 客户端: https://devcenter.heroku.com/articles/getting-started-with-php#set-up <br>
 2. 部署 <br>
 $ heroku login<br>
-$ git clone https://github.com/justsweetpotato/web-proxy-heroku.git <br>
-$ cd web-proxy-heroku <br>
+$ git clone https://github.com/justsweetpotato/you2php-heroku.git <br>
+修改 web/config.php 文件.<br>
+$ cd you2php-heroku <br>
 $ heroku create [You APP Name]<br>
 $ heroku git:remote -a [You APP Name]<br>
 $ git add .<br>
 $ git commit -am "make it better"<br>
 $ git push heroku master<br>
+$ heroku ps:scale web=1<br>
+$ heroku open<br>
  
 <br>
-
-```
-git clone https://github.com/You2php/you2php-heroku.git
-
-cd you2php-heroku
-
-heroku create {You APP Name}
-
-git push heroku master
-
-heroku ps:scale web=1
-
-heroku open
-```
-
-
-
-
-
-
 
