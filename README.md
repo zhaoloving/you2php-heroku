@@ -13,9 +13,10 @@
 
 1. 下载 heroku CLI 客户端: https://devcenter.heroku.com/articles/getting-started-with-php#set-up <br>
 2. 部署 <br>
+```
 $ heroku login<br>
 $ git clone https://github.com/justsweetpotato/you2php-heroku.git <br>
-修改 web/config.php 文件.<br>
+# 修改 web/config.php 文件.<br>
 $ cd you2php-heroku <br>
 $ heroku create [You APP Name]<br>
 $ heroku git:remote -a [You APP Name]<br>
@@ -24,6 +25,6 @@ $ git commit -am "make it better"<br>
 $ git push heroku master<br>
 $ heroku ps:scale web=1<br>
 $ heroku open<br>
- 
+ ```
 <br>
 
