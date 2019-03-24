@@ -28,5 +28,17 @@ $ git push heroku master
 $ heroku ps:scale web=1
 $ heroku open
  ```
+3. 修改 web/config 文件.<br>
+```
+<?php
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'US';
+define('ROOT_PART', Root_part());
+define('APIKEY', '你的 APIKEY');
+define('GJ_CODE', $gl);
+define('SITE_NAME', '你的网站名');
+define('TITLENAME', '你的网站title');
+define('EN2DEKEY', '一个随机字符串, 用于加密');
+define('EMAIL', '你的邮箱, 用于处理版权纠纷');
+?>
+```
 <br>
-
