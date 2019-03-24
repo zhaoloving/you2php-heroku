@@ -22,7 +22,7 @@ $ git clone https://github.com/justsweetpotato/you2php-heroku.git
 $ cd you2php-heroku 
 $ heroku create [You APP Name]
 $ heroku git:remote -a [You APP Name]
-$ git add .<br>
+$ git add .
 $ git commit -am "make it better"
 $ git push heroku master
 $ heroku ps:scale web=1
