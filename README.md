@@ -7,7 +7,7 @@
 
 
 <b>YouTube 镜像网站, 实现免翻墙访问.</b><br>
-点击使用: https://youtubemirror-usa.herokuapp.com/<br>
+点击使用: https://good--job.herokuapp.com/<br>
 
 <br>
 
