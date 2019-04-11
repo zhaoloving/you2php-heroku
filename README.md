@@ -41,9 +41,11 @@ define('EN2DEKEY', '一个随机字符串, 用于加密');
 define('EMAIL', '你的邮箱, 用于处理版权纠纷');
 ?>
 ```
+<br>
+
 ### 其他建议: <br>
 1. 建议使用自己的 Google API Key 防止网站达到每日请求上限.<br>
-2. 建议设置密码, GFW "似乎"加大了对 You2Php 的检测力度, 建议使用密码保护<br>
+2. 建议设置密码, GFW "似乎"加大了对 You2Php 的检测力度, 建议使用密码保护.<br>
 
 以上均可以参考这篇教程: https://you2php.github.io/doc/ <br>
 
