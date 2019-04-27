@@ -48,5 +48,4 @@ define('EMAIL', '你的邮箱, 用于处理版权纠纷');
 2. 建议设置密码, GFW "似乎"加大了对 You2Php 的检测力度, 建议使用密码保护.<br>
 
 以上均可以参考这篇教程: https://you2php.github.io/doc/ <br>
-
 <br>
