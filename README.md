@@ -25,12 +25,14 @@
 当前页面将会显示你关联的 Github 账号, 在 Search for a repository to connect to 选项中输入 you2php-heroku
 并点击 Searh, 选择 repo 点击 Connect, 连接完成后, 在最下方点击 Deploy Branch 完成部署.<br>
 6. 注意事项<br>
+```
 1. 域名起敏感词汇将更容易被封.<br>
 2. 强烈建议启用密码保护, 教程见下方"其他建议".<br>
 3. 强烈建议使用自己的 API KEY 部署, 教程见下方"其他建议".<br>
 3. 越少人用, 越不容易被封.<br>
 4. 可能会因各种原因导致 app 被封(DNS 污染), 这时候换一个 URL 地址(app name)重新部署即可.<br>
-5. (你不用关心这个)heroku 会定期停用对低版本的 PHP 的支持, 这个时候需要你根据错误提示, 
+5. (低概率)heroku 会定期停用对低版本的 PHP 的支持, 这个时候需要你根据错误提示, 修改 composer.lock 和 composer.json 中的描述.
+```
 
 ### 自定义网站配置
 修改 web/config 文件.<br>
