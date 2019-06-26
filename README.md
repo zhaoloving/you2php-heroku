@@ -1,7 +1,7 @@
 # you2php-heroku
 
 ## YouTube 镜像网站, 实现免翻墙访问.
-点击使用: https://good--job.herokuapp.com/<br>
+点击使用: https://bot-yt-test.herokuapp.com/<br>
 
 ### 本 Fork 更新
 3/22/2019<br>
