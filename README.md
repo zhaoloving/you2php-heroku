@@ -20,7 +20,7 @@
 <a href="https://dashboard.heroku.com/apps">点我跳转</a><br>
 3. 新建 app<br>
 在 heroku 控制台页面点击 右上角的 New 新建一个 app, app 名称将作为网站域名<br>
-<i>*使用敏感词汇将会触发 GFW 规则导致更快被封.</i><br>
+<i>*使用敏感词汇可能导致更快被封.</i><br>
 4. 关联 Github<br>
 创建完 app 后点击 app 进入 app 管理页面, 然后点击 Deploy(默认创建后跳转到这个页面).<br>
 点击页面中的 GitHub/Connect to Github, 会要求你登录 Github, 请登录刚刚 Fork 项目的 Github账号.<br>
