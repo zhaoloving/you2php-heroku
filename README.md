@@ -31,7 +31,7 @@
 ```
 1. 域名(app name)起敏感词汇将更容易被封.
 2. 越少人用, 越不容易被封, 请低调使用.
-3. 可能会因各种原因导致 App 被封(DNS 污染), <del>这时候换一个 URL 地址(app name)重新部署即可.</del>这时候在 App 的详情页面处点击 Settings, 在 Name 选项处重新起一个不一样名字, 然后使用新的 URL 地址访问(如: newAppName.herokuapp.com).
+3. 可能会因各种原因导致 App 被封(DNS 污染), 这时候在 App 的详情页面处点击 Settings, 在 Name 选项处重新起一个不一样名字, 然后使用新的 URL 地址访问(如: newAppName.herokuapp.com).
 4. heroku 会定期停用对低版本的 PHP 的支持, 这个时候需要你根据错误提示, 修改 composer.lock 和 composer.json 中的描述.
 5. 强烈建议使用自己的 API KEY 部署, 教程见下方"其他建议".
 6. 强烈建议启用密码保护, 教程见下方"其他建议".
