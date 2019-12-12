@@ -2,7 +2,7 @@
 
 ## YouTube 镜像网站, 实现免翻墙访问。
 点击使用: https://bot-yt-2.herokuapp.com/<br>
-<i>*Heroku App 30 分钟内没有链接会进入休眠状态, 第一次访问时需要 5 秒左右来唤醒 App, 请耐心等待一会.</i>
+<i>*Heroku App 30 分钟内没有连接会进入休眠状态, 第一次访问时需要 5 秒左右来唤醒 App, 请耐心等待一会。</i>
 
 在官方版的基础上加入的功能:<br> 
 1. <b>国家/地区选择</b>, 可以根据地区切换热门内容。（此功能来源于官方文档中介绍的插件）<br>
@@ -53,7 +53,7 @@ define('EMAIL', 'please input your Email');
 APIKEY 的申请方法见下方的官方教程。
 
 ### 其他建议
-官方教程(已被墙): <a href="https://you2php.github.io/doc/">https://you2php.github.io/doc/</a><br>
+官方教程(已被墙)：<a href="https://you2php.github.io/doc/">https://you2php.github.io/doc/</a><br>
 官方教程(通过 Web 代理访问)：<a href="https://proxy.littlepotato.tk/-----https://you2php.github.io/doc/">https://proxy.littlepotato.tk/-----https://you2php.github.io/doc/</a><br>
 1. <b>申请 APIKEY</b> 使用自己的 Google API Key 防止网站达到每日请求上限。如何申请见 -> <a href="https://you2php.github.io/doc/">官方教程</a><br>
 2. <b>设置密码</b> 当使用人数较多时, 建议设置密码阻止 GFW 的主动探测(不容易被封)。如何设置密码见 -> <a href="https://you2php.github.io/doc/">官方教程</a><br>
