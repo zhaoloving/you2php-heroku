@@ -1,7 +1,7 @@
 # you2php-heroku
 
 ## YouTube 镜像网站, 实现免翻墙访问.
-点击使用: https://bot-yt-1.herokuapp.com/<br>
+点击使用: https://bot-yt-2.herokuapp.com/<br>
 <i>*Heroku App 30 分钟内没有链接会进入休眠状态, 第一次访问时需要 5 秒左右来唤醒 App, 请耐心等待一会.</i>
 
 在官方版的基础上加入的功能:<br> 
