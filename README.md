@@ -54,6 +54,6 @@ APIKEY 的申请方法见下方的官方教程。
 
 ### 其他建议
 官方教程(已被墙)：<a href="https://you2php.github.io/doc/">https://you2php.github.io/doc/</a><br>
-官方教程(通过 Web 代理访问)：<a href="https://proxy.littlepotato.cf/-----https://you2php.github.io/doc/">https://proxy.littlepotato.tk/-----https://you2php.github.io/doc/</a><br>
+官方教程(通过 Web 代理访问)：<a href="https://proxy.littlepotato.cf/-----https://you2php.github.io/doc/">https://proxy.littlepotato.cf/-----https://you2php.github.io/doc/</a><br>
 1. <b>申请 APIKEY</b> 使用自己的 Google API Key 防止网站达到每日请求上限。如何申请见 -> <a href="https://you2php.github.io/doc/">官方教程</a><br>
 2. <b>设置密码</b> 当使用人数较多时, 建议设置密码阻止 GFW 的主动探测(不容易被封)。如何设置密码见 -> <a href="https://you2php.github.io/doc/">官方教程</a><br>
