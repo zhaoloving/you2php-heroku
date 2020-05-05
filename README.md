@@ -7,7 +7,7 @@
 在官方版的基础上加入的功能:<br> 
 1. <b>国家/地区选择</b>, 可以根据地区切换热门内容。（此功能来源于官方文档中介绍的插件）<br>
 2. <b>4K播放</b>, 遇到版权或其他问题无法播放的视频, 可以点击右下方的 "4K播放" 观看。（其实是一个 "Web代理" 服务）<br>
-3. <b>密码验证</b>(可选), 此功能主要防止 GFW 的主动探测, 使网站更难被封, 使用人数不多时不需要这个功能。<br>
+3. <b>密码验证</b>(可选), 此功能主要防止 GFW 的主动探测, 使网站更难被封, 使用人数不多时不需要这个功能 <br>
 
 ### 本 Fork 更新
 3/22/2019<br>
@@ -19,9 +19,9 @@
 2. 登录 heroku<br>
 <a href="https://dashboard.heroku.com/apps">点我跳转</a><br>
 3. 新建 app<br>
-在 heroku 控制台页面点击 右上角的 New 新建一个 app, app 名称将作为网站域名。<br>
+在 heroku 控制台页面点击 右上角的 New 新建一个 App, App 名称将作为网站域名。<br>
 4. 关联 Github<br>
-创建完 app 后点击 app 进入 app 管理页面, 然后点击 Deploy(默认创建后跳转到这个页面)。<br>
+创建完 App 后点击 App 进入 App 管理页面, 然后点击 Deploy(默认创建后跳转到这个页面)。<br>
 点击页面中的 GitHub/Connect to Github, 会要求你登录 Github, 请登录刚刚 Fork 项目的 Github账号。<br>
 5. 部署<br>
 当前页面将会显示你关联的 Github 账号, 在 Search for a repository to connect to 选项中输入 you2php-heroku
@@ -37,7 +37,7 @@
 ```
 
 ### 自定义网站配置(可选)
-如果你想修改网站名等配置，直接在 Github 上编辑 web/config 文件。<br>
+如果你想修改网站名等配置，直接在 Github 上编辑 web/config 文件。 修改后需要在 heroku 控制台页面重新部署一次。<br>
 ```
 <?php
 $gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'US';
